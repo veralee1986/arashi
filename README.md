@@ -1,4 +1,5 @@
 ## Welcome to GitHub Pages
+I Love ARASHI!I Love NINO!
 
 You can use the [editor on GitHub](https://github.com/veralee1986/arashi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
