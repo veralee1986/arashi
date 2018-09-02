@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>firstone</title>
+	<style type="text/css">
+		html{
+			height: 100%
+		}
+		body{
+			height: 100%;
+			background: transparent url(arashi.jpeg) no-repeat center center;
+			background-size: cover;
+		}
+		@keyframes firstone{
+			0%{opacity: 0;}
+			25%{opacity: 100;}
+			75%{opacity: 0;}
+			100%{opacity: 0;}
+
+		}
+		@keyframes firstone1{
+			0%{opacity: 0;}
+			25%{opacity: 0;}
+			75%{opacity: 100;}
+			100%{opacity: 0;}
+		}
+		p{
+			color: red;
+			text-align: center;
+			font-size: 3em; 
+			margin: 0;
+			position: absolute;
+			width: 100%;
+		}
+		#arashi{
+			animation: firstone 6s infinite;
+		}
+		#nino{
+			animation: firstone1 6s infinite;
+		}
+	</style>
+</head>
+<body>
+	<audio src="111.mp3" autoplay="autoplay" loop="loop"></audio>
+	<p id="arashi">ARASHI大好き!</p>
+	<p id="nino">NINO大好き!</p>
+</body>
+</html>
