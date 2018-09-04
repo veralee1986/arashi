@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>animation</title>
+	<style type="text/css">
+	html,body,p{
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			text-align: center;
+		}
+		p{
+			font-family: FangSong;
+			font-size: 80px;
+			margin: 15px;
+			position: absolute;
+			margin: 0;
+			padding-top: 30%
+		}
+		@keyframes d{
+			0%{opacity: 0}
+			15%{opacity: 100}
+			30%{opacity: 0}
+			100%{opacity: 0}
+		}
+		@keyframes y{
+			0%{opacity: 0}
+			15%{opacity: 0}
+			30%{opacity: 100;}
+			45%{opacity: 0}
+			100%{opacity: 0}
+		}
+		@keyframes x{
+			0%{opacity: 0}
+			30%{opacity: 0}
+			45%{opacity: 100}
+			60%{opacity: 0}
+			100%{opacity: 0}
+		}
+		@keyframes e{
+			0%{opacity: 0}
+			45%{opacity: 0}
+			60%{opacity: 100}
+			75%{opacity: 0}
+			100%{opacity: 0}
+		}
+		@keyframes s{
+			0%{opacity: 0}
+			60%{opacity: 0}
+			75%{opacity: 100}
+			90%{opacity: 0}
+			100%{opacity: 0}
+		}
+		@keyframes i{
+			0%{opacity: 0}
+			75%{opacity: 0}
+			90%{opacity: 100}
+			100%{opacity: 0}
+		}
+		#d{
+			background: #1894AD url(D.jpeg) no-repeat center center;
+			background-size: 414px auto;
+			color: white;
+			animation: d 10s infinite
+		}
+		#y{
+			background: #F0223A url(Y.jpg) no-repeat center center;
+      background-size: 414px auto;
+			color: white;
+			animation: y 10s infinite
+		}
+		#x{
+			background: #74A814 url(X.jpg) no-repeat center center;
+			background-size: 414px auto;
+			color: white;
+			animation: x 10s infinite
+		}
+		#e{
+			background: #E07D20 url(E.jpg) no-repeat center center;
+			background-size: 414px auto;
+			color: white;
+			animation: e 10s infinite
+		}
+		#s{
+			background: #5A11D9 url(S.jpeg) no-repeat center center;
+			background-size: 414px auto;
+			color: white;
+			animation: s 10s infinite
+		}
+		#i{
+			background: #fff url(xin.jpg) no-repeat center 60%;
+			background-size: 414px auto;
+			color: red;
+			animation: i 10s infinite;
+			font-weight: bold
+		}
+	</style>
+</head>
+<body>
+	<p id="d">大野智</p>
+	<p id="y">樱井翔</p>
+	<p id="x">相叶雅纪</p>
+	<p id="e">二宫和也</p>
+	<p id="s">松本润</p>
+	<p id="i">I LOVE YOU!</p>
+</body>
+</html>
