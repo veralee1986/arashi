@@ -7,10 +7,9 @@ html, body{
 }
 .main_page{
 	width: 100%;
-	margin: 0 auto;
 	height: 100%;
 	background: green;
-	background: transparent url('bg_p.jpg') no-repeat center;
+	background: transparent url('bg_p.jpg') no-repeat;
 }
 .main_page p{
 	margin: 0;
