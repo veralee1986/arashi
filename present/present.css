@@ -8,8 +8,8 @@ html, body{
 .main_page{
 	width: 100%;
 	height: 100%;
-	background: green;
-	background: transparent url('bg_p.jpg') no-repeat;
+	margin: 0 auto;
+	background: transparent url('bg_p.jpg') no-repeat center;
 }
 .main_page p{
 	margin: 0;
