@@ -1,0 +1,26 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background: black;
+	text-align: center;
+	font-family: 
+}
+.result{
+	width: 375px;
+	margin: 0 auto;
+	height: 667px;
+	background: green;
+	background: transparent url('bg_a.jpg') 65%;
+}
+.result p{
+	margin: 10px;
+	color: white;
+	font-size: 1em;
+	text-shadow: 0.1em 0.1em 0.02em #0F9155;
+}
+.result p:first-child{
+	display: block;
+	color: #ED0C8C;
+    padding: 100px 80px 80px 80px;
+    font-size: 2em;
+}

@@ -1,0 +1,38 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background: black;
+	text-align: center;
+	font-family: 
+}
+.main_page{
+	width: 375px;
+	margin: 0 auto;
+	height: 667px;
+	background: green;
+	background: transparent url('bg_q.jpg') center;
+}
+
+.main_page div{
+	margin: 0;
+
+}
+.main_page p{
+	margin: 10px;
+	color: white;
+	font-size: 1em;
+	text-shadow: 0.1em 0.1em 0.02em #033307;
+}
+.main_page p:first-child{
+	display: block;
+    padding: 100px 80px 20px 80px;
+}
+.favor{
+	width: 70px;
+	height: 30px;
+	background-color: #593499;
+	border: none;
+	color: white;
+	border-radius: 2px;
+	margin-top: 210px;
+}

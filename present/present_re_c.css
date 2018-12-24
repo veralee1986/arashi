@@ -1,0 +1,29 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background: black;
+	text-align: center;
+	font-family: 
+}
+.result{
+	width: 375px;
+	margin: 0 auto;
+	height: 667px;
+	background: green;
+	background-size: 110%;
+	background-image: url('bg_c.jpg');
+	background-repeat:no-repeat;
+	background-position: 50%;
+}
+.result p{
+	margin: 10px;
+	color: white;
+	font-size: 1em;
+	text-shadow: 0.1em 0.1em 0.02em #0F9155;
+}
+.result p:first-child{
+	display: block;
+	color: #ED0C8C;
+    padding: 50px 80px 460px 80px;
+    font-size: 2em;
+}
