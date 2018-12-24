@@ -6,9 +6,9 @@ html, body{
 	font-family: 
 }
 .main_page{
-	width: 375px;
+	width: 100%;
 	margin: 0 auto;
-	height: 667px;
+	height: auto;
 	background: green;
 	background: transparent url('bg_q.jpg') center;
 }
@@ -34,5 +34,8 @@ html, body{
 	border: none;
 	color: white;
 	border-radius: 2px;
-	margin-top: 210px;
+	margin-top: 280px;
+}
+#erd{
+	margin-bottom: 300px;
 }

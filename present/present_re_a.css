@@ -6,11 +6,11 @@ html, body{
 	font-family: 
 }
 .result{
-	width: 375px;
+	width: 100%;
 	margin: 0 auto;
-	height: 667px;
+	height: auto;
 	background: green;
-	background: transparent url('bg_a.jpg') 65%;
+	background: transparent url('bg_a.jpg') no-repeat 65%;
 }
 .result p{
 	margin: 10px;
@@ -23,4 +23,9 @@ html, body{
 	color: #ED0C8C;
     padding: 100px 80px 80px 80px;
     font-size: 2em;
+}
+
+.result p:last-child{
+	display: block;
+	padding-bottom: 300px;
 }

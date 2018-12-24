@@ -6,11 +6,11 @@ html, body{
 	font-family: 
 }
 .result{
-	width: 375px;
+	width: 100%;
 	margin: 0 auto;
-	height: 667px;
+	height: auto;
 	background: green;
-	background: transparent url('bg_b.jpg') 52%;
+	background: transparent url('bg_b.jpg') no-repeat 52%;
 }
 .result p{
 	margin: 10px;
@@ -21,6 +21,10 @@ html, body{
 .result p:first-child{
 	display: block;
 	color: #ED0C8C;
-    padding: 100px 80px 40px 80px;
+    padding: 100px 80px 20px 80px;
     font-size: 2em;
+}
+.result p:last-child{
+	display: block;
+	padding-bottom: 400px;
 }

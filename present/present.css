@@ -6,11 +6,11 @@ html, body{
 	font-family: 
 }
 .main_page{
-	width: 375px;
+	width: 100%;
 	margin: 0 auto;
-	height: 667px;
+	height: 100%;
 	background: green;
-	background: transparent url('bg_p.jpg') center;
+	background: transparent url('bg_p.jpg') no-repeat center;
 }
 .main_page p{
 	margin: 0;
@@ -24,6 +24,7 @@ html, body{
 	width: 200px;
 	height: 30px;
 	border: 4px solid #506952;
+	margin-bottom: 300px;
 }
 .main_page button{
 	width: 80px;

@@ -6,9 +6,9 @@ html, body{
 	font-family: 
 }
 .main_page{
-	width: 375px;
+	width: 100%;
 	margin: 0 auto;
-	height: 667px;
+	height: auto;
 	background: green;
 	background: transparent url('bg_q.jpg') center;
 }
@@ -17,7 +17,7 @@ html, body{
 	display: block;
 	color: white;
 	font-size: 1.8em;
-	padding: 100px 80px 10px 80px;
+	padding: 100px 80px 140px 80px;
 	text-shadow: 0.1em 0.1em 0.02em #033307;
 }
 .main_page button{
@@ -28,4 +28,5 @@ html, body{
 	color: white;
 	border-radius: 5px;
 	margin-top: 208px;
+	margin-bottom: 300px;
 }

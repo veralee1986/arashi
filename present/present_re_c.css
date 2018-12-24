@@ -6,9 +6,9 @@ html, body{
 	font-family: 
 }
 .result{
-	width: 375px;
+	width: 100%;
 	margin: 0 auto;
-	height: 667px;
+	height: auto;
 	background: green;
 	background-size: 110%;
 	background-image: url('bg_c.jpg');
@@ -26,4 +26,8 @@ html, body{
 	color: #ED0C8C;
     padding: 50px 80px 460px 80px;
     font-size: 2em;
+}
+.result p:last-child{
+	display: block;
+	padding-bottom: 300px;
 }
