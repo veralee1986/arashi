@@ -136,22 +136,6 @@ header a,.top-left a {
 	opacity: 0;
 	animation: slider 9s infinite;
 }
-/*轮播左右按钮*/
-
-.sidebar,.fa-chevron-left,.fa-chevron-right{
-	position: absolute;
-}
-.sidebar{
-	width: 100%;
-	top: 46%;
-	color: #F8F8F0;
-}
-.fa-chevron-left{
-	left: 9%;
-}
-.fa-chevron-right{
-	right: 9%;
-}
 /*轮播动画*/
 
 @keyframes slider{
