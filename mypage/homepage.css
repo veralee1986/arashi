@@ -26,51 +26,33 @@ body{
 /*-------------------layout-------------------*/
 
 /*----- header -----*/
-header{
+.header-wrap{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 3px solid #003366;
 }
-header a,.top-left a {
+.top-left a{
 	line-height: 49px;
 }
 .top-left, .top-right{
 	display: flex;
 }
-.top-left h3, a{
+.top-left h3, .top-left a{
     margin: 0px 20px 0px 10px;
 }
-.top-right a{
-	margin-right: 50px;
-}
-.btn-1:before, .btn-2:before{
-	content: "";
-	display: block;
-	position: absolute;
-	opacity: 0.4;
-	margin-top: 6px;
-	margin-left: -10px;
+.top-right button{
 	width: 60px;
-	height: 30px;
-	border: 1px solid black;
-	background: #c7c8ca;
+    height: 30px;
+    border: 1px solid #003366;
+    background: #c7c8ca;
+    margin-top: 10px;
+    margin-right: 45px;
+    opacity: 0.8;
 }
 /*追加的自适应icon*/
-.top-right i{
+.icon{
 	display: none;
-}
-.fa-bars, .fa-user{
-	color: #003366;
-	position: absolute;
-}
-.fa-bars{
-    right: 15px;
-    top: 8.5px;
-}
-.fa-user{
-	right: 55px;
-    top: 8.5px;
 }
 /*----- 轮播区域 -----*/
 
@@ -79,6 +61,7 @@ header a,.top-left a {
 	overflow: hidden;
 	position: relative;
 	margin-bottom: 10px;
+	z-index: -1;
 }
 /*放图片的ul*/
 
@@ -319,7 +302,7 @@ footer{
 header,footer{
 	background: #f0f0f1; 
 }
-header a, .top-left a, .low a,.arrow-down p,.a-left h3,.a-left a, .brief h3, p{
+.header-wrap a, .header-wrap button, .top-left a, .low a,.arrow-down p,.a-left h3,.a-left a, .brief h3, p{
 	color: #767474;
 	font-family: ヒラギノ角ゴ, fantasy;
 }
@@ -352,11 +335,59 @@ area:hover{
 }
 /*移动电话端适应*/
 @media all and (max-width: 670px){
-	/*header部分*/
-	.top-right i{
+	/*------ header部分 ------*/
+	/*追加的按钮和效果*/
+	.icon{
 		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
 	}
-	header a{
+	.icon i{
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		color: #003366;
+	}
+	.a-icon{
+		display: inline-block;	
+		color: #003366;
+	}
+	/*备用的icon背景*/
+	.a-cha-icon{
+		display: inline-block;
+		color: #fff;
+		background: #003366;
+	}
+	.show-btns ul{
+		background: #003366;
+		width: 300px;
+		height: 150px;
+	}
+	.show-btns ul a{
+		color: #fff;
+		line-height: 45px; 
+	}
+	#btn1, #btn2{
+		padding-left: 10px;
+		position: absolute;
+		top: 49px;
+		right: 0;
+		width: 300px;
+		padding-top: 10px;
+	}
+	#btn1{
+		height: 110px;
+		display: none;
+	}
+	#btn2{
+		height: 150px;
+		display: none;
+
+	}
+	/*-------------------------*/
+	.header-wrap a, .top-right button{
 		display: none;
 	}
 	.top-left h3{
@@ -374,9 +405,6 @@ area:hover{
     .top-wrapper{
     	height: 100%;
         padding-bottom: 40%;
-    }
-    .disc{
-    	display: none;
     }
     .ja, .en{
     	font-size: 14px;
