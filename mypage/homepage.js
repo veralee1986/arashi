@@ -19,7 +19,14 @@
     	 		aDiv[i].style.display='none';
     	 	}
     		this.className='a-cha-icon';
-    		aDiv[this.index].style.display='block';
+
+    		if (aDiv[this.index].style.display=='none')
+    		{
+    			aDiv[this.index].style.display='block';
+    		}
+    		else{
+    			aDiv[this.index].style.display='none';
+    		}
     		// alert(this.index);
     	};
     }

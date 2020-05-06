@@ -51,7 +51,7 @@ body{
     opacity: 0.8;
 }
 /*追加的自适应icon*/
-.icon{
+.icon, .show-btns ul{
 	display: none;
 }
 /*----- 轮播区域 -----*/
@@ -360,16 +360,14 @@ area:hover{
 		color: #fff;
 		background: #003366;
 	}
-	.show-btns ul{
-		background: #003366;
-		width: 300px;
-		height: 150px;
-	}
-	.show-btns ul a{
+	#btn1 a, #btn2 a{
 		color: #fff;
 		line-height: 45px; 
 	}
 	#btn1, #btn2{
+		background: #003366;
+		width: 300px;
+		height: 150px;
 		padding-left: 10px;
 		position: absolute;
 		top: 49px;
@@ -390,8 +388,11 @@ area:hover{
 	.header-wrap a, .top-right button{
 		display: none;
 	}
-	.top-left h3{
+	.top-left h3, footer h3{
 		color: #003366;
+	}
+	footer a{
+		padding: 0 19px;
 	}
 	/*search部分*/
 	.pho-search{
@@ -405,10 +406,14 @@ area:hover{
     .top-wrapper{
     	height: 100%;
         padding-bottom: 40%;
+        z-index: -1;
     }
     .ja, .en{
     	font-size: 14px;
     }
+    .disc ul{
+    	margin-left: 36%;
+    	}    
     /*map部分*/
     .map-wrap img{
 	    width: 100%;
